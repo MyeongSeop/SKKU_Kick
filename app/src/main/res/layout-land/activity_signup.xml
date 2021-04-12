@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_kick_scooter"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/signupTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:fontFamily="@font/gillsansb"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Sign Up"
+            android:textSize="17sp"
+            android:textColor="#000"
+            android:fontFamily="@font/gillsansb"
+            android:background="@drawable/rounded_button"
+            />
+
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Full Name"
+            android:fontFamily="@font/gillsans"
+            />
+
+        <EditText
+            android:id="@+id/signupFullname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Full Name"
+            android:textSize="12sp"
+            android:maxLength="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Student ID"
+            android:fontFamily="@font/gillsans"
+            />
+
+        <EditText
+            android:id="@+id/signupStudentID"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Student ID"
+            android:textSize="12sp"
+            android:maxLength="10"
+            android:inputType="number" />
+
+        <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Phone number"
+        android:fontFamily="@font/gillsans"
+        />
+
+        <EditText
+            android:id="@+id/signupPhone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone number"
+            android:textSize="12sp"
+            android:maxLength="11"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Credit Card No."
+            android:fontFamily="@font/gillsans"
+            />
+
+        <EditText
+            android:id="@+id/signup_payment"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="12sp"
+            android:maxLength="16"
+            android:hint="Credit Card No.(Except '-')"/>
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textColor="#F00"
+            android:textStyle="bold"
+            android:text="After the Sign up, monthly fee will pay automatically !!"
+            android:fontFamily="@font/gillsans"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "682474753033",
+    "firebase_url": "https://map-pp-390bc.firebaseio.com",
+    "project_id": "map-pp-390bc",
+    "storage_bucket": "map-pp-390bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682474753033:android:4ddb85003f6420aaef3cd8",
+        "android_client_info": {
+          "package_name": "edu.skku.map.map_pp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682474753033-uf6kjtajp8n7it2f3p2m1crbo6o98t47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.map.map_pp",
+            "certificate_hash": "bc5a706689c447a36b9e7573146b3de648139c8e"
+          }
+        },
+        {
+          "client_id": "682474753033-hnvh8k6o1ph6tbiua27rin7ekffeuger.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3RAEz4_5zuWq0e59G91xEwsMXQHBS_jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682474753033-hnvh8k6o1ph6tbiua27rin7ekffeuger.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/navigation_Payment"
+        android:icon="@drawable/ic_credit_card_black_24dp"
+        android:title="Payment"
+        />
+
+    <item android:id="@+id/navigation_Time"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="Driving time"
+        />
+
+    <item android:id="@+id/navigation_phone"
+        android:icon="@drawable/ic_local_phone_black_24dp"
+        android:title="Phone"
+        />
+
+    <item android:id="@+id/navigation_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share"
+        />
+    <item android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_out_black_24dp"
+        android:title="Logout"
+        />
+
+
+</menu>
